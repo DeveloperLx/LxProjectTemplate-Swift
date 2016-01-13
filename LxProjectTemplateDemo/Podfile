@@ -1,0 +1,24 @@
+# Uncomment this line to define a global platform for your project
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+target 'LxProjectTemplateDemo' do
+
+pod 'Alamofire', '3.1.4'
+pod 'SwiftyJSON', '2.3.2'
+pod "PromiseKit", "3.0.0"
+pod 'ReactiveCocoa', '4.0.4-alpha-4', :inhibit_warnings => true
+pod 'RxSwift',    '2.1.0'
+
+end
+
+target 'LxProjectTemplateDemoTests' do
+
+end
+
+target 'LxProjectTemplateDemoUITests' do
+
+end
+
