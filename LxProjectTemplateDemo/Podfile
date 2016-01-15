@@ -6,11 +6,15 @@ use_frameworks!
 
 target 'LxProjectTemplateDemo' do
 
-pod 'Alamofire', '3.1.4'
+pod 'Alamofire',  '3.1.4'
+pod 'Kingfisher', '1.9.1'
 pod 'SwiftyJSON', '2.3.2'
-pod "PromiseKit", "3.0.0"
-pod 'ReactiveCocoa', '4.0.4-alpha-4', :inhibit_warnings => true
+pod 'PromiseKit', '3.0.0'
+pod 'SnapKit',    '0.18.0'
+pod 'RealmSwift', '0.97.0'
+
 pod 'RxSwift',    '2.1.0'
+pod 'RxCocoa',    '2.1.0'
 
 end
 

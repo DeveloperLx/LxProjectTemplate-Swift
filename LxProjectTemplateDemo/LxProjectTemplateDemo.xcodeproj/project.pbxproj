@@ -15,12 +15,7 @@
 		B63B85D31C46900500480520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63B85D11C46900500480520 /* LaunchScreen.storyboard */; };
 		B63B85DE1C46900500480520 /* LxProjectTemplateDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63B85DD1C46900500480520 /* LxProjectTemplateDemoTests.swift */; };
 		B63B85E91C46900500480520 /* LxProjectTemplateDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63B85E81C46900500480520 /* LxProjectTemplateDemoUITests.swift */; };
-		B6B1832E1C4750CD00F6F6DB /* DAimG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B1832D1C4750CD00F6F6DB /* DAimG.jpg */; };
-		B6B1832F1C4750CD00F6F6DB /* DAimG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B1832D1C4750CD00F6F6DB /* DAimG.jpg */; };
-		B6B183301C4750CD00F6F6DB /* DAimG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B1832D1C4750CD00F6F6DB /* DAimG.jpg */; };
-		B6B183321C47592300F6F6DB /* DAimG2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B183311C47592300F6F6DB /* DAimG2.jpg */; };
-		B6B183331C47592300F6F6DB /* DAimG2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B183311C47592300F6F6DB /* DAimG2.jpg */; };
-		B6B183341C47592300F6F6DB /* DAimG2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B183311C47592300F6F6DB /* DAimG2.jpg */; };
+		B6B183381C47A76400F6F6DB /* LxTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B183371C47A76400F6F6DB /* LxTools.swift */; };
 		E8145BA1B1C937571D812376 /* Pods_LxProjectTemplateDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318EB655B602D357EE9274A4 /* Pods_LxProjectTemplateDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,8 +53,7 @@
 		B63B85E41C46900500480520 /* LxProjectTemplateDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LxProjectTemplateDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63B85E81C46900500480520 /* LxProjectTemplateDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LxProjectTemplateDemoUITests.swift; sourceTree = "<group>"; };
 		B63B85EA1C46900500480520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6B1832D1C4750CD00F6F6DB /* DAimG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DAimG.jpg; sourceTree = "<group>"; };
-		B6B183311C47592300F6F6DB /* DAimG2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DAimG2.jpg; sourceTree = "<group>"; };
+		B6B183371C47A76400F6F6DB /* LxTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LxTools.swift; sourceTree = "<group>"; };
 		CAC825F9BFF2A75DDA16E647 /* Pods-LxProjectTemplateDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LxProjectTemplateDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LxProjectTemplateDemo/Pods-LxProjectTemplateDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,8 +125,7 @@
 		B63B85C41C46900500480520 /* LxProjectTemplateDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B6B1832D1C4750CD00F6F6DB /* DAimG.jpg */,
-				B6B183311C47592300F6F6DB /* DAimG2.jpg */,
+				B6B183371C47A76400F6F6DB /* LxTools.swift */,
 				B63B85C51C46900500480520 /* AppDelegate.swift */,
 				B63B85C71C46900500480520 /* ViewController.swift */,
 				B63B85C91C46900500480520 /* Main.storyboard */,
@@ -270,10 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B63B85D31C46900500480520 /* LaunchScreen.storyboard in Resources */,
-				B6B183321C47592300F6F6DB /* DAimG2.jpg in Resources */,
 				B63B85D01C46900500480520 /* Assets.xcassets in Resources */,
 				B63B85CB1C46900500480520 /* Main.storyboard in Resources */,
-				B6B1832E1C4750CD00F6F6DB /* DAimG.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,8 +272,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6B183331C47592300F6F6DB /* DAimG2.jpg in Resources */,
-				B6B1832F1C4750CD00F6F6DB /* DAimG.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,8 +279,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6B183341C47592300F6F6DB /* DAimG2.jpg in Resources */,
-				B6B183301C4750CD00F6F6DB /* DAimG.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B63B85C81C46900500480520 /* ViewController.swift in Sources */,
+				B6B183381C47A76400F6F6DB /* LxTools.swift in Sources */,
 				B63B85C61C46900500480520 /* AppDelegate.swift in Sources */,
 				B63B85CE1C46900500480520 /* LxProjectTemplateDemo.xcdatamodeld in Sources */,
 			);

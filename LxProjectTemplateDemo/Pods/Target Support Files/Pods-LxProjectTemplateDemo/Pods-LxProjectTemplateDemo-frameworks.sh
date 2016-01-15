@@ -85,19 +85,25 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-LxProjectTemplateDemo/Alamofire.framework"
+  install_framework "Pods-LxProjectTemplateDemo/Kingfisher.framework"
   install_framework "Pods-LxProjectTemplateDemo/OMGHTTPURLRQ.framework"
   install_framework "Pods-LxProjectTemplateDemo/PromiseKit.framework"
-  install_framework "Pods-LxProjectTemplateDemo/ReactiveCocoa.framework"
-  install_framework "Pods-LxProjectTemplateDemo/Result.framework"
+  install_framework "Pods-LxProjectTemplateDemo/Realm.framework"
+  install_framework "Pods-LxProjectTemplateDemo/RealmSwift.framework"
+  install_framework "Pods-LxProjectTemplateDemo/RxCocoa.framework"
   install_framework "Pods-LxProjectTemplateDemo/RxSwift.framework"
+  install_framework "Pods-LxProjectTemplateDemo/SnapKit.framework"
   install_framework "Pods-LxProjectTemplateDemo/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-LxProjectTemplateDemo/Alamofire.framework"
+  install_framework "Pods-LxProjectTemplateDemo/Kingfisher.framework"
   install_framework "Pods-LxProjectTemplateDemo/OMGHTTPURLRQ.framework"
   install_framework "Pods-LxProjectTemplateDemo/PromiseKit.framework"
-  install_framework "Pods-LxProjectTemplateDemo/ReactiveCocoa.framework"
-  install_framework "Pods-LxProjectTemplateDemo/Result.framework"
+  install_framework "Pods-LxProjectTemplateDemo/Realm.framework"
+  install_framework "Pods-LxProjectTemplateDemo/RealmSwift.framework"
+  install_framework "Pods-LxProjectTemplateDemo/RxCocoa.framework"
   install_framework "Pods-LxProjectTemplateDemo/RxSwift.framework"
+  install_framework "Pods-LxProjectTemplateDemo/SnapKit.framework"
   install_framework "Pods-LxProjectTemplateDemo/SwiftyJSON.framework"
 fi

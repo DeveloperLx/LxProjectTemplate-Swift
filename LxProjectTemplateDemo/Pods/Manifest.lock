@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (3.1.4)
+  - Kingfisher (1.9.1)
   - OMGHTTPURLRQ (3.0.2):
     - OMGHTTPURLRQ/RQ (= 3.0.2)
   - OMGHTTPURLRQ/FormURLEncode (3.0.2)
@@ -19,35 +20,37 @@ PODS:
     - PromiseKit/CorePromise
   - PromiseKit/UIKit (3.0.0):
     - PromiseKit/CorePromise
-  - ReactiveCocoa (4.0.4-alpha-4):
-    - ReactiveCocoa/UI (= 4.0.4-alpha-4)
-    - Result (~> 1.0)
-  - ReactiveCocoa/Core (4.0.4-alpha-4):
-    - ReactiveCocoa/no-arc
-    - Result (~> 1.0)
-  - ReactiveCocoa/no-arc (4.0.4-alpha-4):
-    - Result (~> 1.0)
-  - ReactiveCocoa/UI (4.0.4-alpha-4):
-    - ReactiveCocoa/Core
-    - Result (~> 1.0)
-  - Result (1.0.1)
+  - Realm (0.97.0):
+    - Realm/Headers (= 0.97.0)
+  - Realm/Headers (0.97.0)
+  - RealmSwift (0.97.0):
+    - Realm (= 0.97.0)
+  - RxCocoa (2.1.0):
+    - RxSwift (~> 2.0)
   - RxSwift (2.1.0)
+  - SnapKit (0.18.0)
   - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
   - Alamofire (= 3.1.4)
+  - Kingfisher (= 1.9.1)
   - PromiseKit (= 3.0.0)
-  - ReactiveCocoa (= 4.0.4-alpha-4)
+  - RealmSwift (= 0.97.0)
+  - RxCocoa (= 2.1.0)
   - RxSwift (= 2.1.0)
+  - SnapKit (= 0.18.0)
   - SwiftyJSON (= 2.3.2)
 
 SPEC CHECKSUMS:
   Alamofire: fbc829692f351fa1d8a31dd75fd7f7f56fea31fb
+  Kingfisher: 98fedd5d44d982b331fc7303f9f6144b7d8ba289
   OMGHTTPURLRQ: 8376dc887d76a5a7e2a67881dc788f917a2f437c
   PromiseKit: 665540a1eb43156446872dcf49ed7dee6ebbe13b
-  ReactiveCocoa: e459ea92099447802df20c4735e31e8139b06094
-  Result: caef80340451e1f07492fa1e89117f83613bce24
+  Realm: b498a6fb9d288b171ff98d0e2d4384c295be8990
+  RealmSwift: d014810dec75c9a3f1a33926d2dabfed855c582c
+  RxCocoa: 79b5feb8378545336e756a0a33fcf5e95050b71c
   RxSwift: 110fb07f81c17c2c3b3254d168363057b1880d18
+  SnapKit: e1f090a6d47b1dd4bd89b73f72b6746a7835ef3c
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
 COCOAPODS: 0.39.0
