@@ -155,25 +155,57 @@ let kCATransitionCameraIrisHollowClose = "cameraIrisHollowClose"
 
 // MARK: - const value
 
- let HALF = 0.5
- let GOLD_RATIO = ((sqrt(5.0) - 1)/2)
- let NSCFRangeZero = CFRange(location: 0, length: 0)
- let NSRangeZero = NSRange(location: 0, length: 0)
+let HALF = 0.5
+let GOLD_RATIO = ((sqrt(5.0) - 1)/2)
+let NSCFRangeZero = CFRange(location: 0, length: 0)
+let NSRangeZero = NSRange(location: 0, length: 0)
 
- let BITS_PER_BYTE = 8
- let BYTES_PER_KILOBYTE = 1024
- let BYTES_PER_MEGABYTE = (1024 * 1024)
- let BYTES_PER_GIGABYTE = (1024 * 1024 * 1024)
- let BYTES_PER_TERABYTE = (1024 * 1024 * 1024)
- let BYTES_PER_PETABYTE = (1024 * 1024 * 1024)
+let BITS_PER_BYTE = 8
+let BYTES_PER_KILOBYTE = 1024
+let BYTES_PER_MEGABYTE = (1024 * 1024)
+let BYTES_PER_GIGABYTE = (1024 * 1024 * 1024)
+let BYTES_PER_TERABYTE = (1024 * 1024 * 1024)
+let BYTES_PER_PETABYTE = (1024 * 1024 * 1024)
 
- let SECONDS_PER_MINUTE = 60
- let SECONDS_PER_HOUR = (60 * 60)
- let SECONDS_PER_DAY = (24 * 60 * 60)
- let SECONDS_PER_WEEK = (7 * 24 * 60 * 60)
- let SECONDS_PER_MOUTH = (30 * 24 * 60 * 60)
- let SECONDS_PER_SEASON = (3 * 30 * 24 * 60 * 60)
- let SECONDS_PER_YEAR = (365 * 24 * 60 * 60)
+let SECONDS_PER_MINUTE = 60
+let SECONDS_PER_HOUR = (60 * 60)
+let SECONDS_PER_DAY = (24 * 60 * 60)
+let SECONDS_PER_WEEK = (7 * 24 * 60 * 60)
+let SECONDS_PER_MOUTH = (30 * 24 * 60 * 60)
+let SECONDS_PER_SEASON = (3 * 30 * 24 * 60 * 60)
+let SECONDS_PER_YEAR = (365 * 24 * 60 * 60)
+
+// MARK: - math
+
+public func ROUNDING_TO_INTEGER(f: Double) -> Int {
+
+    return Int(f + 0.5)
+}
+
+public func ROUNDING(f: Double, w: Int) -> Int {
+    
+    return Int((f * pow(10.0, Double(w)) + 0.5)/pow(10.0, Double(w)))
+}
+
+public func RADIAN_OF_DEGREES(d: Double) -> Double {
+
+    return M_PI * d / 180.0
+}
+
+public func DEGREES_OF_RADIAN(r: Double) -> Double {
+    
+    return 180.0 * r / M_PI
+}
+
+public func IS_INTEGER(num: Double) -> Bool {
+    
+    return num - Double(Int(num)) == 0
+}
+
+public func FLOAT_EQUAL(float1: Double, float2: Double) -> Bool {
+
+    return abs(float1 - float2) < 0.1
+}
 
 // MARK: - keyboard
 
